@@ -49,7 +49,7 @@ curl -X POST http://localhost:3500/v1.0/actors/stormtrooper/50/method/shoot \
   -H "Content-Type: application/json"
 ```
 
-Example of invoking a method on an actor that takes parameters: You can provided the method parameters and values in the body of the request, for example in curl using -d "{\"param\":\"value\"}"
+Example of invoking a method on an actor that takes parameters: You can provide the method parameters and values in the body of the request, for example in curl using -d "{\"param\":\"value\"}"
  
 
 ```shell
